@@ -56,6 +56,12 @@ h1 {
     color: #FFFFFF;
     width: 70%;
 }
+h2 {
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    color: #323232;
+}
 h3 {
     font-family: 'Montserrat Regular';
     font-size: 16px;
@@ -107,4 +113,79 @@ div.navbar-item:hover {
 }
 .home-section-content h1 {
     margin: 30px 0 50px;
+}
+
+section.work {
+    padding: 110px 0 105px;
+}
+
+section.work h2 {
+    margin: 0 auto;
+    width: 65%;
+}
+
+p.work-content-descr {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+    width: 65%;
+    margin: 50px auto 80px;
+}
+
+.work-content-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-content-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-content-item-img-border {
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin-right: 17px;
+    width: 110px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-content-item-img {
+    margin: 10px 10px;
+    border: 1px solid #4985FF;
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-content-item-descr {
+    margin: 30px 15px;
+}
+
+p.work-content-item-descr-header {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+p.work-content-item-descr-descr {
+    font-size: 14px;
+    line-height: 22px;
+    color: #999999;
+}
+
+.work-content-button {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
 }
