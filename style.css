@@ -293,6 +293,32 @@ section.standarts {
     text-decoration-line: underline;
     color: #4985FF;
 }
+section.our-projects {
+    background: #F6F6F8;
+    padding: 100px 0 130px;
+    text-align: center;
+}
+.our-projects-header {
+    margin: 0;
+}
+.our-projects-descr {
+    margin: 50px auto 70px;
+    width: 65%;
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+}
+.our-projects-items {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+img.our-projects-item {
+    width: 23%;
+}
+
+
+
 .subscription-section {
     text-align: center;
     padding: 85px 0;
