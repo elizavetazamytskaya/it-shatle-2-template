@@ -316,8 +316,47 @@ section.our-projects {
 img.our-projects-item {
     width: 23%;
 }
-
-
+section.our-video {
+    text-align: center;
+    padding-top: 70px;
+    background-image: url('assets/img/video-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.our-video-header {
+    margin: 0;
+    color: white;
+}
+.our-video-descr {
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin: 30px 0 0;
+}
+.video {
+    position: relative;
+    top: 70px;
+}
+div.play {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    border-radius: 200px;
+}
+p.play-text {
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-left: 21px;
+}
 
 .subscription-section {
     text-align: center;
